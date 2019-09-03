@@ -1,0 +1,20 @@
+{
+  "name": "PWA作ってみた",
+  "short_name": "PWA作ってみた",
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "https://miiicha15146.github.io/",
+  "icons": [{
+      "src": "images/ico/apple-touch-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "images/ico/apple-touch-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }],
+  "start_url": "/index.html",
+  "display": "standalone",
+}
