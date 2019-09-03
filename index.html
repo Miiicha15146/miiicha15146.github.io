@@ -3,10 +3,26 @@
   <head>
     <meta charset="utf-8">
     <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
     <title></title>
   </head>
   <body>
-    <p>testだよ！</p>
+    <div class="tabs">
+      <input id="all" type="radio" name="tab_item" checked>
+      <label class="tab_item" for="all">総合</label>
+      <input id="programming" type="radio" name="tab_item">
+      <label class="tab_item" for="programming">プログラミング</label>
+      <input id="design" type="radio" name="tab_item">
+      <label class="tab_item" for="design">デザイン</label>
+    <div class="tab_content" id="all_content">
+        総合の内容がここに入ります
+    </div>
+    <div class="tab_content" id="programming_content">
+        プログラミングの内容がここに入ります
+    </div>
+    <div class="tab_content" id="design_content">
+        デザインの内容がここに入ります
+  </div>
     <script>
       // ServiceWorker登録：https://developers.google.com/web/fundamentals/primers/service-workers/?hl=ja
       if ('serviceWorker' in navigator) {
@@ -16,6 +32,6 @@
           console.log('ServiceWorker registration failed: ', err);
         });
       }
-</script>
+  </script>
   </body>
 </html>
