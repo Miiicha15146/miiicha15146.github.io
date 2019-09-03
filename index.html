@@ -4,9 +4,13 @@
     <meta charset="utf-8">
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
     <title></title>
   </head>
   <body>
+    <div class="main">
+      <p class="logo">テストで作ってみたPWA
+    </div>
     <div class="tabs">
       <input id="all" type="radio" name="tab_item" checked>
       <label class="tab_item" for="all">総合</label>
@@ -15,10 +19,19 @@
       <input id="design" type="radio" name="tab_item">
       <label class="tab_item" for="design">デザイン</label>
     <div class="tab_content" id="all_content">
-        総合の内容がここに入ります
+        最新の動画が入るよーーー
+        <div class="new-mv">
+          <iframe src="https://www.youtube.com/embed/DWc7ikZgzT0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="old-mv">
+          <iframe src="https://www.youtube.com/embed/DWc7ikZgzT0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/DWc7ikZgzT0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </div>
     <div class="tab_content" id="programming_content">
-        プログラミングの内容がここに入ります
+        <div class="post">
+          <p>ツイートあったらこんなかんじに表じしようねーー</p>
+        </div>
     </div>
     <div class="tab_content" id="design_content">
         デザインの内容がここに入ります
